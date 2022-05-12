@@ -48,7 +48,7 @@ read_data = cursor.execute("select * from GOMCHARACHTERS").fetchall()
 for each in read_data:
     print(each)
 
-
+connection.close()
 
 
 
