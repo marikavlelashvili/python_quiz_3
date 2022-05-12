@@ -34,6 +34,7 @@ for each in read_data:
         data = json.loads(response.text)
         print("your random character is:")
         print(json.dumps(data, indent=6))
+        break
 
 
 inserting_data =''' insert into GOMCHARACHTERS(id,firstname,lastname,fullname,title,family,imagename,imageURL) 
